@@ -12,7 +12,7 @@ namespace AsterNET.Manager.Action
 
         public PJSIPShowEndpointAction(string endpoint)
         {
-            this.Endpoint = "PJSIP/" + endpoint;
+            this.Endpoint = endpoint;
         }
 
         public override string Action
